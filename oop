@@ -1,0 +1,19 @@
+I1 - min
+
+Napišite  program  koji  omogućava  čuvanje  podataka  o 
+učenicima jednog  razreda  neke osnovne škole  iz  donje  tablice.  Definirajte  potrebnu  strukturu  klase  te stvorite  po 
+jedan  objekt  za  svakog učenika  i pohranite  ga  u  listu.  Na kraju ispišite  ime i prezime učenika  koji  imaju  prosjek  
+ocjena  veći od 4,5.  Nije dopušten izravan pristup atributima klase!  Podaci  o  učenicima  se  ne  unose  putem  
+komandne linije već se moraju definirati unutar programskog koda. Potrebno  je definirati drugu  klasu koja upravlja 
+sa svim podacima (manger  klasa).
+
+I1 -max
+
+Napišite  program  za  evidenciju  vozila.  Svako vozilo  definirano  je 
+markom, modelom,  godinom  proizvodnje  i  prijeđenim  kilometrima.  Korisnik  kroz  komandnu  liniju  može  unijeti 
+neograničen  broj vozila. Nakon unosa  treba ispisati  sva unesena vozila i izračunati i ispisati  za svako vozilo koliko 
+godišnje  prosječno pređe kilometara.  
+Nije dopušten izravan pristup atributima klase!  Potrebno  je  kreirati  posebnu  klasu  koja definira  jedno  vozilo  i 
+drugu  klasu koja upravlja  sa svim objektima unesenih  vozila. 
+
+I2 - min
