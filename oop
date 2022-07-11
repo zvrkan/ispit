@@ -83,6 +83,18 @@ prihvatiti  rezultat  te metode i formatirati ga u oblik  YYYY-MM-DD
 I5 - min 
 Na temelju zadanog  UML dijagrama  stvorite  odgovarajuće klase. Vodite računa o mogućnostima nasljeđivanja  te obvezno primijenite ispravne kontrole pristupa  na 
 atributima  i metodama. 
+
++ Id: int <- -duzina:float
+# Naziv: string <- -sirina:float
+# Cijena: float <- -visina:float
+----------------------------------
++ getNaziv() : string | + getDuzina() : float
+# setNaziv() : bool | # setDuzina() : bool
+# getCijena() : float | + getSirina() : float
+# setCijena() : bool | # setSirina() : bool
+                     | + getVisina() : float
+                     | # setVisina() : bool
+
  
 I5 - max
 
