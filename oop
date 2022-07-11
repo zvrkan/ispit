@@ -17,3 +17,93 @@ Nije dopušten izravan pristup atributima klase!  Potrebno  je  kreirati  posebn
 drugu  klasu koja upravlja  sa svim objektima unesenih  vozila. 
 
 I2 - min
+
+Napišite  klasu koja može čuvati podatke  o jednom  proizvodu 
+neke Internetske  trgovine. Svaki proizvod opisan  je sljedećim atributima: naziv, cijena i jedinica  mjere (komad, litra, 
+kg  itd.)  U  program  učitajte  proizvoljan  broj  proizvoda  putem  komandne  linije. Nije  dopušten  izravan  pristup 
+atributima.  Obvezno  se  moraju  kreirati getter  i setter metode.  Svi podaci  o proizvodu  moraju  se obvezno  predati 
+klasi prilikom instanciranja  objekta.   
+Stvorite drugu  klasu koja ima ulogu  upravitelja  (managera)  i kontrolira  rad s podacima  putem dviju metoda Unos  i 
+Ispis.  Unos metoda zadužena je za unos proizvoda i mora se automatski pokrenuti prilikom instanciranja  objekata. 
+Metoda Ispis zadužena  je za prikaz svih unesenih  proizvoda  i mora se pokrenuti  automatski  na kraju unosa.
+
+I2 - max 
+
+Napišite program za čitanje tekstualne datoteke s polaznicima PHP 
+tečaja.  Za  potrebe  zadatka  sami  stvorite  datoteku  polaznici.txt.  Podaci  za  datoteku  se  nalaze  ispod  zadatka. 
+Definirajte  klasu  koja opisuje  jednog  polaznika.  Napišite  drugu  klasu koja mora implementirati  metodu za čitanje 
+podataka iz tekstualne datoteke i stvaranje  objekata za svakog polaznika  te pohranu tih objekata u zajedničku listu. 
+Klasa  mora imati i drugu  metodu za ispis  na ekran svih polaznika koji su završili tečaj iz tekstualne  datoteke.  Prva 
+metoda za čitanje se mora automatski pokrenuti prilikom instanciranja  objekta druge  klase. 
+ 
+ 
+Prezime;Ime;Zavrsio 
+Ivic;Ivo;DA 
+Maric;Marko;NE 
+Anic;Ana;NE 
+Peric;Petar;DA
+
+
+I3 - min
+
+Za potrebe  ovog zadatka  prvo preuzmite  apstraktnu  klasu sa 
+sljedećeg  linka: http://bozajic.com.hr/php/class.zip 
+Primjenom te apstraktne  klase napišite  novu klasu Mobitel. Definirajte  u novoj klasi metodu koja računa vrijeme 
+punjenja  baterije  prema formuli T = Ah / A (T – vrijeme punjenja,  Ah – kapacitet baterije  u Amper-satima, A – jačina 
+punjača u Amperima). 
+Putem komandne linije  se unose  proizvoljni  podaci o jednom željenom  pametnom telefonu kao i podatka  o jakosti 
+punjača koji posjedujemo,  a program ispisuje  koliko je vrijeme punjenja  baterije  tog mobitela s obzirom na upisanu 
+jakost punjača. 
+ 
+ 
+I3 - max  
+
+Definirajte  vlastitu  apstraktnu  klasu Student koja sadrži neke 
+podatke  o jednom studentu.  Definirajte  atribute  ime, prezime i datum rođenja  i za sve atribute napišite  getter i 
+setter metode. Definirajte apstraktnu metodu za računanje koliko godina  ima student.  Nije potrebno  stvoriti main 
+datoteku.
+
+I4 - min
+
+Za potrebe ovog zadatka prvo preuzmite klasu sa sljedećeg linka: http://bozajic.com.hr/php/Time.zip 
+Primijenite nasljeđivanje  kako bi stvorili novu klasu HrTime. U novoj klasi morate primjenom nadjačavanja  stvoriti 
+novu metodu koja poništava (override) postojeću  i prikazuje vrijeme u 24-satnom  formatu. Trenutna  metoda 
+prikazuje  vrijeme u 12-satnom  formatu s dodatkom AM ili PM na kraju vremena.  
+U novoj klasi napišite  novu metodu Split() koja koristi  ranije napisanu  metodu  i implementira  programski kod koji 
+dijeli  vrijeme na sate  i minute. Ova metoda za vrijeme 13:54  prikazuje  H=13, M=54. 
+ 
+ 
+I4 - max 
+
+Stvorite vlastitu  klasu Datum koja sadrži metodu Trenutni. Ova metoda mora generirati trenutni datum u sljedećem formatu DD.MM.YYYY   
+Nakon toga primjenom nasljeđivanja  stvorite novu klasu DatumEN. Primijenite nadjačavanje  kako bi stvorili novu 
+metodu Trenutni. Nova metoda obvezno mora na početku implementirati poziv roditeljske  metode Trenutni, 
+prihvatiti  rezultat  te metode i formatirati ga u oblik  YYYY-MM-DD
+
+I5 - min 
+Na temelju zadanog  UML dijagrama  stvorite  odgovarajuće klase. Vodite računa o mogućnostima nasljeđivanja  te obvezno primijenite ispravne kontrole pristupa  na 
+atributima  i metodama. 
+ 
+I5 - max
+
+Primjenom kontrole  pristupa  na atributima  i metodama stvorite ogovarajuću klasu. Vodite računa o mogućnostima nasljeđivanja.  Nije dopušten izravan pristup atributima. 
+Klasa treba opisivati jedan smartphone.  Svaki uređaj opisan  je s nekoliko karakteristika  poput:  marke, modela, 
+memorije za pohranu podataka te da li koristi 4G ili 5G mrežu. Napišite  main  skriptu u kojoj će te demonstrirati 
+rad klase. Korisnik može unijeti  putem komandne linije samo jedan uređaj nakon čega mu morate ispisati  natrag 
+sve unesene  podatke. 
+ 
+ 
+ 
+Ishod učenja  6 – 10 bodova 
+ 
+ 
+Zadatak 61. (Bodova za minimalnu  razinu:  5) Definirajte  jednu  klasu koja opisuje  jedan  artikl u nekoj 
+trgovini.  Artikl ima naziv  i cijenu.  Nakon toga  stvorite novu klasu koja predstavlja  upravitelja  (managera) koja 
+može pohraniti  sve upisane  artikle. Nova klasa ima metodu za ispis  svih artikala. 
+Klasu za upravljanje napišite  primjenom Singleton  Patterna. Nije potrebno za ovaj zadatak kreirati main skriptu. 
+ 
+ 
+ 
+Zadatak 62. (Bodova za željenu  razinu:  5) Primjenom upravitelj  klase  iz prethodnog  zadatka napišite 
+program koji omogućava unos proizvoljnog  broja artikala putem komandne linije.  Nakon što je unos gotov ispisati 
+sve unesene  artikle. Vodite računa da upravitelj klasa mora biti implementirana  primjenom Singleton  Patterna.
